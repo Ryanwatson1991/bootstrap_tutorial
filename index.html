@@ -6,83 +6,145 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Whiskey Drop | Get that good good whiskey each and every month</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6629f1558e.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <article class="container">
+    <!-- NavBar -->
+    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+        <a href="/" class="navbar-brand">Whiskey Drop </a>
+
+        
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+
+       <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">
+                <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+                <li class="navbar-nav mr-2"><a class="nav-link" href="/about">About</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Whiskeys
+                    </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">The Scarlett Speedster</a>
+                        <a class="dropdown-item" href="#">The Caped Crusader</a>
+                        <a class="dropdown-item" href="#">Web-Head</a>
+                        <a class="dropdown-item" href="#">Choppy Hands</a>
+                        <a class="dropdown-item" href="#">Mad Max Fury Road</a>
+                    </div>
+                </li>
+                <li class="navbar-nav mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In / Sign Up</a></li>
+            </ul>
+        </div>
+        <div class="d-none d-md-block">
+            <p class="navbar-text my-auto mr-2">Good good whiskeys delivered to your <strong>home</strong>!</p>
+            <a href="/login">Sign In / Sign Up</a>
+        </div>
+    </nav>
+    <!--/NavBar-->
+    
+    <article class="container mt-3">
+        <div class="row d-none d-sm-block">
+            <div class="col-12">
+                <div class="alert alert-warning">
+                    <strong>12-months for the price of 6!</strong> Chop-chop! <a href=""> Subscribe now!</a>
+                </div>
+            </div>
+        </div>
         <div class="row">
             <div class="col12">
-                <section class="callout">
+    <!--Callout-->
+                <section class="callout jumbotron text-center">
                     <h1>Good and tasty whiskeys delivered right to your doorstep.</h1>
-                    <p class="lead">Sign up today to start experiencing a different good good whiskey every month. <s>£2500pm</s> <strong><mark>Your first whiskey is free!</mark></strong></p>
+                    <p class="lead">Sign up today to start experiencing a different good good whiskey every month. <s class="d-none d-sm-inline">£2500pm</s> 
+                    <span class="d-inline d-sm-none"><br><br></span>
+                    <strong><mark>Your first whiskey is free!</mark></strong></p>
                     <p class="text-muted"><small>Please drink responsibly. Also, if you're not 18+ you <strong>can't</strong> use our service so go away!</small></p>
-                    
                     <button class="btn btn-success btn-lg">I want the good stuff!</button>
                 </section>
             </div>
         </div>
+    <!--/Callout-->
             <hr>
-
+    <!--Quotes-->
             <section class="quotes">
             <div class="row">
-                <div class="col12">
+                <div class="col12 my-5">
                     <h2 class="text-uppercase">Quotes:</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col12 col-md-6">
-                        <blockquote class="blockquote">
-                            <p>"These whiskeys are like sooooooo much better than a JD and Coke!"</p>
-                            <p>- Kendra Saunders</p>
-                        </blockquote>
+                    <div class="media">                
+                        <div class="d-none d-sm-block">
+                            <img src="Images/kendra-saunders.png" class="rounded-circle mr-3" height="100" width="100">
+                        </div>
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>"These whiskeys are like sooooooo much better than a JD and Coke!"</p>
+                                <p>- Kendra Saunders</p>
+                            </blockquote>
+                        </div>
+                    </div>  
                 </div>  
                 <div class="col12 col-md-6">     
-                        <blockquote class="blockquote">
-                            <p>"These are so good, I have 31 subscriptions because I drink a bottle a day!"</p>
-                            <p>- Barry Allen</p>
-                        </blockquote>
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                            <img src="Images/barry-image.jpg" class="rounded-circle mr-3" height="100" width="100">
+                        </div>
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>"These are so good, I have 31 subscriptions because I drink a bottle a day!"</p>
+                                <p>- Barry Allen</p>
+                            </blockquote>
+                        </div>
+                    </div>
                 </div>
             </div>
             </section>
+    <!--/Quotes--> 
         <hr>
-
+    <!--Features-->
         <section class="features">
             <div class="row">
-                <div class="col12">
+                <div class="col12 my-5">
                     <h2 class="text-uppercase">Features:</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col12 col-md-6 col-lg-4">
                     <div class="feature">
-                        <h3>Get a different whiskey each month!</h3>
+                        <h3><i class="fas fa-glass-whiskey d-none d-sm-inline"></i> Get a different whiskey each month! <span class="badge badge-success">NEW!</span></h3>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum commodi iusto cumque consequuntur perferendis voluptatum, nulla praesentium ad illo eius quam nam asperiores dolor officia ipsa quisquam dicta. Repellendus, deleniti.</p>
                         <button type="button" class="btn btn-light btn-sm">A Different Whiskey each month?!</button>
                     </div>
                 </div>
                 <div class="col12 col-md-6 col-lg-4">
                     <div class="feature">
-                        <h3>Try rare whiskeys from all over the world!</h3>
+                        <h3><i class="fas fa-globe-europe d-none d-sm-inline"></i> Try rare whiskeys from all over the world!</h3>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum commodi iusto cumque consequuntur perferendis voluptatum, nulla praesentium ad illo eius quam nam asperiores dolor officia ipsa quisquam dicta. Repellendus, deleniti.</p>
                         <button type="button" class="btn btn-light btn-sm">Rare whiskeys?!</button>
                     </div>
                 </div>
                 <div class="col12 d-md-none d-lg-block col-lg-4">
                     <div class="feature">
-                        <h3>Never drink JD and coke again!</h3>
+                        <h3> <i class="fas fa-ban d-none d-sm-inline"></i> Never drink JD and coke again!</h3>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum commodi iusto cumque consequuntur perferendis voluptatum, nulla praesentium ad illo eius quam nam asperiores dolor officia ipsa quisquam dicta. Repellendus, deleniti.</p>
                         <button type="button" class="btn btn-light btn-sm text-uppercase">no more jd & coke?!</button>
                     </div>
                 </div>
            </div>
         </section>
+    <!--/Features-->
         <hr>
-
+    <!--Table-->
         <section class="table">
             <div class="row">
-                <div class="col12">
-                    <h2 class="text-uppercase">What's a super tasty whiskey this month?</h2> <br>
+                <div class="col12 my-5">
+                    <h2 class="text-uppercase">Tasty whiskeys this month:</h2> 
                 </div>
             </div>
             <div class="row">
@@ -121,7 +183,11 @@
             </div>
             </section>
         <hr>
-        
+    <!--/Table-->        
     </article>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
