@@ -58,7 +58,8 @@ body {
 .jumbotron-header {
     color: #FaFaFa;
     font-weight: bold;
-    margin-bottom;
+    margin-bottom; 30px;
+    color: white;
 }
 
 .jumbotron .lead {
