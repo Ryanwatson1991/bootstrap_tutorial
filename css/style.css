@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color:#f05f40
 }
 
 /* Containers */
@@ -109,7 +110,7 @@ body {
     width: 75px;
     height: 5px;
     border: 0;
-    background-color: #444;
+    background-color: #f05f40;
 }
 
 .block-divider--orange {
@@ -202,3 +203,37 @@ body {
     margin-top: 10px;
     color: #f05f40
 }
+
+.table i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+    display: block;
+}
+
+
+.table-container .table--red {
+    color: #FaFaFa;
+    background-color: #f05f40;
+}
+
+.table-container div {
+    text-align: center;
+}
+
+.table h2 {
+    color: #f05f40
+}
+
+.table-body tr {
+    padding: 10px;
+    line-height: 3;
+    font-weight: 300
+}
+
+.table-head {
+    padding: 10px;
+    line-height: 3;
+    font-weight: 900
+}
+
